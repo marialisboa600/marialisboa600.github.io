@@ -1,0 +1,26 @@
+
+.tituloprincipal{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gold;
+    font-weight: 500;
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    padding-top: 10px;
+       
+}
+.menuinicial{
+    color: floralwhite;
+}
+
+ p {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: honeydew;
+ }
+
+ body { background-color: rgb(95, 2, 83);
+     
+ }
+
+ 
