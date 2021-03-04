@@ -1,100 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Megrim&display=swap');
 
-.tituloprincipal{
-    font-family: 'Megrim', cursive;
-    color: gainsboro;
-    font-size: 8em;
-    display:flex;
-    justify-content: center;
-    padding-top: 10px;
-    align-items: center;
-    width: 100%;
-    margin-top: 120px;       
+.tituloprincipal {
+  font-family: 'Megrim', cursive;
+  color: gainsboro;
+  font-size: 8em;
+  display:flex;
+  justify-content: center;
+  padding-top: 10px;
+  align-items: center;
+  width: 100%;
+  margin-top: 120px;       
 }
+
 #conteiner-home, #minha-jornada, #projetos, #habilidades, #contatos{
-
-    height: 100vh;
+  height: 100vh;
 }
 
- 
-#minha-jornada, #habilidades{
-    background-color: gold;
-    
+#minha-jornada, #habilidades {
+  background-color: gold;   
 }
 
 #minha-jornada {
   padding-top: 110px;
   display: flex;
-  
   align-items: baseline;
-  justify-content: space-between;
- 
-    
-  
-  
+  justify-content: space-between;  
 }
+
 #minha-jornada div {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content:center
-    
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content:center   
 }
 
-.minhasfotos{
-     
-    border-radius: 100%;
-    border: black solid 1px;
-
-    
+.minhasfotos { 
+  border-radius: 100%;
+  border: black solid 1px;    
 }
 
-
-
-.menuinicial ul{
-    color: gainsboro;
-    display: flex;
-    justify-content: center;
-  
-     
-   
+.menuinicial ul {
+  color: gainsboro;
+  display: flex;
+  justify-content: center;  
 }
 
-.menuinicial{
-    height: 50px;
-    background-color:  hsl(0deg 0% 0% / 23%);
-    padding-top: 10px;
-    position: fixed;
-    top: 0;
-    width: 100%; 
-   
+.menuinicial {
+  height: 50px;
+  background-color:  hsl(0deg 0% 0% / 23%);
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.menuinicial ul li{
-    
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    list-style: none;
-    font-weight: bolder;
-    font-family: 'Courier New', Courier, monospace;
-   
+.menuinicial ul li {
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  list-style: none;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;  
 }
 
-.menuinicial ul li a{
-    color:gainsboro;
-    text-decoration: none;
+.menuinicial ul li a {
+  color:gainsboro;
+  text-decoration: none;
 }
 
-
-a:hover{
-    color: rgb(223, 219, 20)!important;
-    cursor: pointer;
-    
+a:hover {
+  color: rgb(223, 219, 20)!important;
+  cursor: pointer;   
 }
 
- body{ background-color: rgb(95, 2, 83);
-    
-       
- }
+body { 
+  background-color: rgb(95, 2, 83);      
+}
 
+footer{
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+ 
